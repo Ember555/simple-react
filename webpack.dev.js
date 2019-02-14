@@ -8,7 +8,7 @@ module.exports = merge(common, {
   mode: 'development',
   devtool: 'inline-source-map',
   devServer: {
-    hot: true,
+    hot: false,
     inline: true,
     host: '0.0.0.0',
     contentBase: './',

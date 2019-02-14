@@ -1,3 +1,21 @@
 {
-  "presets": ["@babel/preset-env", "@babel/preset-react"]
+  "presets": [
+    "react",
+    [
+      "env",
+      // disalbe browser query for faster build
+      // {
+      //   "targets": {
+      //     "browsers": ["last 2 versions", "safari >= 7"]
+      //   },
+      //   "debug": true,
+      //   "modules": "commonjs"
+      // }
+    ]
+  ],
+  "plugins": [
+    "transform-object-rest-spread",
+    "transform-class-properties",
+    "react-hot-loader/babel"
+  ]
 }
