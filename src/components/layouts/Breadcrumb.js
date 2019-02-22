@@ -3,10 +3,7 @@ import { withRouter } from 'react-router-dom'
 import { Breadcrumb } from 'antd'
 
 const breadcrumbNameMap = {
-  '/admin': 'Organization User Management',
-  '/admin/userList': 'LIST_PARTICIPANT',
-  '/admin/groupList': 'LIST_GROUP',
-  '/admin/orgList': 'List of Organization',
+  '/sub1': 'Menu / SubMenu1',
 }
 
 const _Breadcrumb = ({ location }) => {

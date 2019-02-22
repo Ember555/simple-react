@@ -5,7 +5,7 @@ import { HashRouter, Route, Switch, hashHistory } from 'react-router-dom'
 import Layout from './Layout'
 import NotFound from '../components/errors/NotFound'
 import Home from './Home'
-import Submenu1 from './Submenu1/list'
+import Submenu1 from './submenu1/list'
 
 const Index = () => (
   <div>

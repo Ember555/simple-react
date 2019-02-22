@@ -13,7 +13,7 @@ const { SubMenu } = Menu
 
 const Sidebar = ({ dispatch, sidebarCollapse }) => (
   <Menu
-    style={{ width: sidebarCollapse ? 80 : 200 }}
+    style={{ width: sidebarCollapse ? 80 : 270 }}
     defaultSelectedKeys={['1']}
     defaultOpenKeys={['sub1']}
     theme="dark"
